@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<widget xmlns="http://www.w3.org/ns/widgets" 
+    xmlns:rim="http://www.blackberry.com/ns/widgets"
+    version="1.0.0.0" id="En5Estoy">   
+   
+  <name>En 5' Estoy</name> 
+  <author>Speryans</author>
+  <description>Aplicación que te permite conocer detalles del transporte público y privado de la Ciudad de Córdoba</description>
+  <icon src="icons/icon_144.png"/>
+  <content src="index.html"/> 
+
+  <rim:splash src="splash-1280x768.png"/>
+  <rim:splash src="splash-768x1280.png"/>
+  <rim:splash src="splash-720x720.png"/>
+
+  <access uri="*" subdomains="true" />
+  <access uri="http://54.243.218.97:3000" subdomains="true" />
+  <access uri="http://en5estoy.com" subdomains="true" />
+  <access uri="http://google.com" subdomains="true" />
+  <access uri="http://googleapis.com" subdomains="true" />
+
+    <!-- Additional features. -->
+  <feature id="blackberry.bbm.platform" />
+  <feature id="blackberry.invoke" />
+  <feature id="blackberry.invoke.card" />
+  <feature id="blackberry.ui.dialog"/>
+  <feature id="blackberry.system" />
+  <feature id="blackberry.ui.toast" />
+   
+  <feature id="blackberry.app">
+    <param name="backgroundColor" value="0xFFFFFFFF" />
+  </feature>
+
+  <rim:permissions>
+  	<rim:permit>read_device_identifying_information</rim:permit>
+  	<rim:permit>access_location_services</rim:permit>
+  	<rim:permit>bbm_connect</rim:permit>
+  </rim:permissions>
+
+</widget>

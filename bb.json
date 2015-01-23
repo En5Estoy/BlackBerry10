@@ -1,0 +1,37 @@
+{
+	"build_path" : "dist",
+	"css" : {
+		"files" : [
+			"styles/font/font.css",
+			"styles/glyphs/font.css",
+			"styles/bbui-min.css",
+			"styles/style.css"
+		],
+		"output": "styles/style.css"
+	},
+	"js" : {
+		"script": "build.js",
+		"output" : "main_app.js"
+	},
+	"copy" : {
+		"index.html" : "index.html",
+		"icons/icon_144.png" : "icons/icon_144.png",
+		"splash-720x720.png" : "splash-720x720.png",
+		"splash-1280x768.png" : "splash-1280x768.png",
+		"splash-768x1280.png" : "splash-768x1280.png",
+		"styles/font/robotoslab-light-webfont.eot" : "styles/robotoslab-light-webfont.eot",
+		"styles/font/robotoslab-light-webfont.ttf" : "styles/robotoslab-light-webfont.ttf",
+		"styles/font/robotoslab-light-webfont.woff" : "styles/robotoslab-light-webfont.woff",
+		"styles/glyphs/glyphs-webfont.eot" : "styles/glyphs-webfont.eot",
+		"styles/glyphs/glyphs-webfont.ttf" : "styles/glyphs-webfont.ttf",
+		"styles/glyphs/glyphs-webfont.woff" : "styles/glyphs-webfont.woff",
+		"js/libs/require/require.js" : "js/libs/require/require.js",
+		"config.xml" : "config.xml",
+		"images/ic_bbm.png" : "images/ic_bbm.png",
+		"images/ic_bus.png" : "images/ic_bus.png",
+		"images/ic_card.png" : "images/ic_card.png",
+		"images/ic_news.png" : "images/ic_news.png",
+		"images/ic_share.png" : "images/ic_share.png",
+		"images/ic_taxi.png" : "images/ic_taxi.png"
+	}
+}
